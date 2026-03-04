@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id": "tactile_sensitivity",
+      "name": "Tactile Sensitivity",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Express distress during grooming."
+        },
+        {
+          "id": "q2",
+          "text": "Prefers long sleeved clothing when it is warm or short sleeved clothing when cold"
+        },
+        {
+          "id": "q3",
+          "text": "Avoids going barefoot, especially in sand or grass"
+        },
+        {
+          "id": "q4",
+          "text": "Reacts emotionally or aggressively to touch"
+        },
+        {
+          "id": "q5",
+          "text": "Withdraws from splashing Water"
+        },
+        {
+          "id": "q6",
+          "text": "Has difficulty standing in line or close to other people"
+        },
+        {
+          "id": "q7",
+          "text": "Rubs or scratches out the spot that has been touched"
+        }
+      ]
+    },
+
+    {
+      "id": "tastesmell_sensitivity",
+      "name": "Taste and Smell Sensitivity",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Avoids certain tastes or food smells that are typically part of children's diets"
+        },
+        {
+          "id": "q2",
+          "text": "Will only eat certain tastes"
+        },
+        {
+          "id": "q3",
+          "text": "Limits self to particular food textures/temperatures"
+        },
+        {
+          "id": "q4",
+          "text": "Picky eater, especially regarding food textures"
+        }
+      ]
+    },
+    {
+      "id": "movement_sensitivity",
+      "name": "Movement Sensitivity",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Becomes anxious or distressed when feet leave the ground"
+        },
+        {
+          "id": "q2",
+          "text": "Fears falling or heights"
+        },
+        {
+          "id": "q3",
+          "text": "Dislike activities where head is upside down"
+        }
+      ]
+    }
+  ],
+  "scoring_map": {
+    "Always": 1,
+    "Frequently": 2,
+    "Occasionally": 3,
+    "Seldom": 4,
+    "Never": 5
+  }
+}

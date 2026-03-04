@@ -1,0 +1,12 @@
+# Build Stage
+FROM node:20-slim AS build
+WORKDIR /app
+COPY ./package*.json /app/
+COPY ./tsconfig.json /app/
+RUN npm cache clean --force
+RUN npm install
+COPY . /app/.
+RUN npm run build
+# frontend will be served from port 5000 (configured in package.json/vite)
+EXPOSE 5000
+CMD ["npm", "run", "preview"]

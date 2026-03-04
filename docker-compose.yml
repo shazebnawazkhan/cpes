@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./data.db:/app/data.db
+      - ./users.csv:/app/users.csv
+      - ./evaluations.csv:/app/evaluations.csv
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.fe
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
